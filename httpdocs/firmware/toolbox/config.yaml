@@ -135,7 +135,8 @@ ble_proto:
             name: channel_sounding
             description: BLE Channel Sounding (RAS reflector) enabled when firmware supports it (nRF54)
           6:
-            name: reserved_6
+            name: nm420_init
+            description: RockBase NM-EPD-420 low-power init (ESP32-S3 Firmware) -- drive unused peripheral/ADC enable pins LOW and hold them in deep sleep. Was briefly bit 5 in Firmware; Firmware still accepts bit 5 on ESP32-S3
           7:
             name: reserved_7
       - name: pwr_pin

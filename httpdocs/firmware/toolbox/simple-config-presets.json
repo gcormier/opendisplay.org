@@ -2251,7 +2251,7 @@
          "systemConfig": {
             "ic_type": "2",
             "communication_modes": "0x1",
-            "device_flags": "0x20",
+            "device_flags": "0x40",
             "pwr_pin": "0xff",
             "pwr_pin_2": "0xff",
             "pwr_pin_3": "0xff",
